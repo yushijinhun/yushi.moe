@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/yushijinhun
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://yushi.moe
+  * I am yushijinhun (https://keybase.io/yushijinhun) on keybase.
+  * I have a public key ASC_FiZVyN3TYlqI8UP-dm_9hWydZ_qhlylxby_h8VxRRgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01013617df87f922622d1c041d8e4b0bbcea46e5b64ad7b7d015d393fbd78f8939890a",
+      "host": "keybase.io",
+      "kid": "0120bf162655c8ddd3625a88f143fe766ffd856c9d67faa19729716f2fe1f15c51460a",
+      "uid": "23df9613e95e54459415a0da1455e519",
+      "username": "yushijinhun"
+    },
+    "merkle_root": {
+      "ctime": 1516983219,
+      "hash": "91d17746409345f95abfd836bd8360708038c6efa4f55241a8f921e0e93915ba4d1ad4f113f2a29776de300fb882bf3c6b2f4767b54bef49d26230a48354f97d",
+      "hash_meta": "20fc79262ac4db3a03bf30f3a5c22cd1470e63c29a2b5d98033cacc8d3b32114",
+      "seqno": 1986961
+    },
+    "service": {
+      "hostname": "yushi.moe",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.39"
+  },
+  "ctime": 1516983265,
+  "expire_in": 504576000,
+  "prev": "f5efbf246d32c9cd9471d77a546a571294ce2caedee47bcb393f1405883e3814",
+  "seqno": 30,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgvxYmVcjd02JaiPFD/nZv/YVsnWf6oZcpcW8v4fFcUUYKp3BheWxvYWTFA0V7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMzYxN2RmODdmOTIyNjIyZDFjMDQxZDhlNGIwYmJjZWE0NmU1YjY0YWQ3YjdkMDE1ZDM5M2ZiZDc4Zjg5Mzk4OTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYmYxNjI2NTVjOGRkZDM2MjVhODhmMTQzZmU3NjZmZmQ4NTZjOWQ2N2ZhYTE5NzI5NzE2ZjJmZTFmMTVjNTE0NjBhIiwidWlkIjoiMjNkZjk2MTNlOTVlNTQ0NTk0MTVhMGRhMTQ1NWU1MTkiLCJ1c2VybmFtZSI6Inl1c2hpamluaHVuIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTE2OTgzMjE5LCJoYXNoIjoiOTFkMTc3NDY0MDkzNDVmOTVhYmZkODM2YmQ4MzYwNzA4MDM4YzZlZmE0ZjU1MjQxYThmOTIxZTBlOTM5MTViYTRkMWFkNGYxMTNmMmEyOTc3NmRlMzAwZmI4ODJiZjNjNmIyZjQ3NjdiNTRiZWY0OWQyNjIzMGE0ODM1NGY5N2QiLCJoYXNoX21ldGEiOiIyMGZjNzkyNjJhYzRkYjNhMDNiZjMwZjNhNWMyMmNkMTQ3MGU2M2MyOWEyYjVkOTgwMzNjYWNjOGQzYjMyMTE0Iiwic2Vxbm8iOjE5ODY5NjF9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoieXVzaGkubW9lIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzkifSwiY3RpbWUiOjE1MTY5ODMyNjUsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiZjVlZmJmMjQ2ZDMyYzljZDk0NzFkNzdhNTQ2YTU3MTI5NGNlMmNhZWRlZTQ3YmNiMzkzZjE0MDU4ODNlMzgxNCIsInNlcW5vIjozMCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEA4Ha11Yb/TLUcXqzmfpo+zSPMNw1gICFW9w1Vy4xBYFW4lqnQkoIkgo6gN6fpqrFkFASBPexRDr1H6fV0GvoENqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgmlpw5uiVw5chuOzZcT1F2CjDruWlk9KikN6oZ7F00vWjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/yushijinhun
+
+==================================================================
