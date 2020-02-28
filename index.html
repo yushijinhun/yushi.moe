@@ -14,11 +14,15 @@ body {
 .container {
   margin: 10px;
 }
+.multiline {
+  display: inline-block;
+  vertical-align: top;
+}
     </style>
 </head>
 <body>
 <div class="container">
-	<h2>About Me</h2>
+    <h2>About Me</h2>
     <p>I'm Haowei Wen, a student currently studying in Changshu, China.</p>
     <p>Contact:</p>
     <ul>
@@ -26,8 +30,12 @@ body {
         <li>GitHub: <a href="https://github.com/yushijinhun">@yushijinhun</a></li>
         <li>Twitter: <a href="https://twitter.com/yushijinhun">@yushijinhun</a></li>
         <li>Telegram: <a href="https://t.me/yushijinhun">@yushijinhun</a></li>
+        <li>Keybase: <a href="https://keybase.io/yushijinhun">@yushijinhun</a></li>
         <li>PGP Key ID: <a href="https://keyserver.ubuntu.com/pks/lookup?op=vindex&fingerprint=on&search=0x5bc167f73ea558e4">0x5bc167f73ea558e4</a><br>
-            Fingerprint: 9af5 443c 95bb 317a 10ed  6b99 5bc1 67f7 3ea5 58e4</li>
+            Fingerprint: <span class="multiline">
+                9af5 443c 95bb 317a 10ed<br>
+                6b99 5bc1 67f7 3ea5 58e4</span>
+        </li>
     </ul>
 </div>
 </body>
