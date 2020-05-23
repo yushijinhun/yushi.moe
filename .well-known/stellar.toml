@@ -1,0 +1,17 @@
+VERSION="2.1.0"
+
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+ACCOUNTS=[
+"GCGT4JPYXAOGQXPXLXAHHMZH3WCCGMLPPJVNV3U7B2YD4GQCA3S4FPWC"
+]
+
+[DOCUMENTATION]
+ORG_NAME="yushijinhun"
+ORG_URL="https://yushi.moe/"
+ORG_LOGO="https://yushi.moe/avatar.png"
+ORG_DESCRIPTION="personal organization;"
+ORG_KEYBASE="yushijinhun"
+ORG_TWITTER="yushijinhun"
+ORG_GITHUB="yushijinhun"
+ORG_OFFICIAL_EMAIL="yushijinhun@gmail.com"
+
