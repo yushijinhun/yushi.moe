@@ -7,12 +7,14 @@ ACCOUNTS=[
 ]
 
 [DOCUMENTATION]
-ORG_NAME="yushijinhun"
 ORG_URL="https://yushi.moe/"
-ORG_LOGO="https://yushi.moe/avatar.png"
-ORG_DESCRIPTION="personal organization;"
-ORG_KEYBASE="yushijinhun"
-ORG_TWITTER="yushijinhun"
-ORG_GITHUB="yushijinhun"
-ORG_OFFICIAL_EMAIL="yushijinhun@gmail.com"
+ORG_DESCRIPTION="personal;"
+
+[[PRINCIPALS]]
+name="yushijinhun"
+email="me@yushi.moe"
+keybase="yushijinhun"
+telegram="yushijinhun"
+twitter="yushijinhun"
+github="yushijinhun"
 
