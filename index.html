@@ -1,42 +1,38 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About Me - yushijinhun</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
-    <link rel="shortcut icon" type="image/png" href="avatar.png"/>
-    <style>
-body {
-  font-family: "Ubuntu", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
-}
-.container {
-  margin: 10px;
-}
-.multiline {
-  display: inline-block;
-  vertical-align: top;
-}
-    </style>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About Me - yushijinhun</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="shortcut icon" type="image/png" href="avatar.png"/>
 </head>
 <body>
 <div class="container">
-    <h2>About Me</h2>
-    <p>I'm Haowei Wen, a student currently studying in Changshu, China.</p>
-    <p>Contact:</p>
-    <ul>
-        <li>Email: <a href="mailto:yushijinhun@gmail.com">yushijinhun@gmail.com</a></li>
-        <li>GitHub: <a href="https://github.com/yushijinhun">@yushijinhun</a></li>
-        <li>Twitter: <a href="https://twitter.com/yushijinhun">@yushijinhun</a></li>
-        <li>Telegram: <a href="https://t.me/yushijinhun">@yushijinhun</a></li>
-        <li>Keybase: <a href="https://keybase.io/yushijinhun">@yushijinhun</a></li>
-        <li>PGP Key ID: <a href="https://keyserver.ubuntu.com/pks/lookup?op=vindex&fingerprint=on&search=0x5bc167f73ea558e4">0x5bc167f73ea558e4</a><br>
-            Fingerprint: <span class="multiline">
-                9af5 443c 95bb 317a 10ed<br>
-                6b99 5bc1 67f7 3ea5 58e4</span>
-        </li>
-    </ul>
+	<h2>About Me</h2>
+	<p>I'm Haowei Wen, a student currently studying in Changshu, China.</p>
+	<h3>Contact</h3>
+	<ul>
+		<li>Email: <a id="link_email" href="mailto:">hidden</a></li>
+		<li>GitHub: <a href="https://github.com/yushijinhun">@yushijinhun</a></li>
+		<li>Twitter: <a href="https://twitter.com/yushijinhun">@yushijinhun</a></li>
+		<li>Telegram: <a href="https://t.me/yushijinhun">@yushijinhun</a></li>
+		<li>Keybase: <a href="https://keybase.io/yushijinhun">@yushijinhun</a></li>
+		<li>PGP Key ID: <a href="https://keyserver.ubuntu.com/pks/lookup?op=vindex&fingerprint=on&search=0x5bc167f73ea558e4">0x5bc167f73ea558e4</a><br>
+			Fingerprint: <span class="multiline">
+				9af5 443c 95bb 317a 10ed<br>
+				6b99 5bc1 67f7 3ea5 58e4</span>
+		</li>
+	</ul>
+	<p><a href="tip.html">Click here</a> if you want to buy me a coffee.</p>
 </div>
+<script>
+	const email = atob(atob("ZVhWemFHbHFhVzVvZFc1" + "QVoyMWhhV3d1WTI5dA=="));
+	const link_email = document.getElementById("link_email");
+	link_email.href += email;
+	link_email.textContent = email;
+</script>
 </body>
 </html>

@@ -1,0 +1,17 @@
+body {
+	font-family: "Ubuntu", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+}
+.container {
+	margin: 10px;
+}
+.multiline {
+	display: inline-block;
+	vertical-align: top;
+}
+.hidden {
+	display: none;
+}
+details > pre {
+	margin-left: 25px;
+	font-size: 80%;
+}

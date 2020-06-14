@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tipping - yushijinhun</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="shortcut icon" type="image/png" href="avatar.png"/>
+	<style>
+		.crypto-addr {
+			user-select: all;
+			text-decoration: underline dotted;
+		}
+		#btn_show_stellar_addr {
+			margin-right: 0.5ch;
+		}
+		#stellar_address::before {
+			content: "\A";
+			white-space: pre;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<h2>Tipping</h2>
+	<p>If you want to buy me a coffee, here are my cryptocurrency addresses. ;)</p>
+	<ul>
+		<li>
+			Bitcoin:
+			<span class="crypto-addr">bc1qts5k283r6z3tdya6jksr8zsejtg86u9cvv93ut</span>
+			<small>(<a href="https://blockstream.info/address/bc1qts5k283r6z3tdya6jksr8zsejtg86u9cvv93ut">view</a>)</small>
+		</li>
+		<li>
+			Ethereum:
+			<span class="crypto-addr">0xade737483c608adb6151800416ccd345bd141093</span>
+			<small>(<a href="https://etherscan.io/address/0xade737483c608adb6151800416ccd345bd141093">view</a>)</small>
+		</li>
+		<li>
+			Stellar:
+			<span class="multiline">
+			<span id="stellar_federation" class="crypto-addr">me*yushi.moe</span>
+			<span id="stellar_address" class="crypto-addr hidden">GCGT4JPYXAOGQXPXLXAHHMZH3WCCGMLPPJVNV3U7B2YD4GQCA3S4FPWC</span>
+			<small>(<a id="btn_show_stellar_addr" href="#">show address</a><a href="https://stellar.expert/explorer/public/account/GCGT4JPYXAOGQXPXLXAHHMZH3WCCGMLPPJVNV3U7B2YD4GQCA3S4FPWC">view</a>)</small>
+		</li>
+	</ul>
+	<details>
+		<summary>PGP signature of the addresses</summary>
+<pre>
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+I'm the owner of the following crypto addresses:
+ * Bitcoin: bc1qts5k283r6z3tdya6jksr8zsejtg86u9cvv93ut
+ * Ethereum: 0xade737483c608adb6151800416ccd345bd141093
+ * Stellar: GCGT4JPYXAOGQXPXLXAHHMZH3WCCGMLPPJVNV3U7B2YD4GQCA3S4FPWC
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEmvVEPJW7MXoQ7WuZW8Fn9z6lWOQFAl7mJicACgkQW8Fn9z6l
+WOT0pRAAjIgLkdTcHLGVNqe2saB8eriSr2ZWbGk40HGmS8vgxPsP/Tn27tDTQX3t
+XDccLvBnuXaNQvT4paZl1GhqkWRtgIKewrkL6M20BsMOGGTh1ZmU1lok+Bzeshzb
+qA4hDWqexsmoynOOzwgsTTLNUUZX4y5OB8+tIdKnvURgajoUU23QUetdnZ3kbSw4
+5DBMTIcTKAyq/Pm+OoEnQCgkkJJbRFCESb+IvLLk1Fw3m2OZkomsZcnVvr02XqlS
+N/Bb1/yyBY3Jd+KXTudtXbrWyaAGWGxOMv13EbVTRa2jkjoOcaLTyX6zDcA8HPAP
+phNAAprddZXXw0d9ZzTXLY9BxELYeBrsetvqZyZKBSPPdQYpfxYeIYpTQaIZfZwP
+bgov9E1vkd91RKM/ZQEy0aKyhYtJjziZrDtzL1/WZK3JhHcBsrnBL3d+IM5ouHd9
+XcERGpR1/p6s/sUYg0LE2xkWaPH22qNX1b3RvcAMAj5whr5dAqLJsWRKu6eLCcBX
+jwNDOZ7eRyqJwWeZfG5qaQO9fIqazUUXNalKQxftDj3/4n1DNQNl++18gb8Eox3U
+l8DIhJYxfx1D8nNZegPijJ4eMVnke78nluyIceA5KiZKfsoqVIYWsrz6o4pxZ/NE
+0FgEraJIwvFuRFKlUac9x+kvDAU+qkG9PMj7ImdMbUni4oCl42U=
+=48CT
+-----END PGP SIGNATURE-----
+</pre>
+	</details>
+</div>
+<script>
+	document.getElementById("btn_show_stellar_addr").addEventListener("click", function(e) {
+		document.getElementById("btn_show_stellar_addr").classList.add("hidden");
+		document.getElementById("stellar_address").classList.remove("hidden");
+		e.preventDefault();
+	});
+</script>
+</body>
+</html>
