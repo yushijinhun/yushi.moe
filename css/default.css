@@ -14,4 +14,5 @@ body {
 details > pre {
 	margin-left: 25px;
 	font-size: 80%;
+	overflow-x: auto;
 }
