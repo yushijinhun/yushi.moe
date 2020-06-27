@@ -1,3 +1,5 @@
+> **Keybase has been acquired by Zoom, therefore you should NEVER blindly trust the information it provides!**
+
 ==================================================================
 https://keybase.io/yushijinhun
 --------------------------------------------------------------------
@@ -5,7 +7,7 @@ https://keybase.io/yushijinhun
 I hereby claim:
 
   * I am an admin of https://yushi.moe
-  * I am yushijinhun (https://keybase.io/yushijinhun) on keybase.
+  * I ~~am~~ **was** yushijinhun (https://keybase.io/yushijinhun) on keybase.
   * I have a public key ASC_FiZVyN3TYlqI8UP-dm_9hWydZ_qhlylxby_h8VxRRgo
 
 To do so, I am signing this object:
@@ -49,7 +51,5 @@ hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgvxYmVcjd02JaiPFD/nZv/YVsnWf6oZcp
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
-
-View my publicly-auditable identity here: https://keybase.io/yushijinhun
 
 ==================================================================
