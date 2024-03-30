@@ -16,3 +16,6 @@ details > pre {
 	font-size: 80%;
 	overflow-x: auto;
 }
+li > details > summary {
+	list-style-position: outside;
+}
